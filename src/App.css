@@ -10,7 +10,6 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -19,4 +18,35 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.applecation {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 10%;
+  margin-left: 10%;
+}
+
+.spiner, .option {
+  background: #CCC;
+  border-radius: 15px;
+}
+
+.square__table {
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+.square__array {
+  display: flex;
+  flex-flow: row;
+  display: -webkit-box;
+}
+
+.square {
+  background: #FFF;
+  margin: 15px;
+  color: black;
+  display: block;
 }
